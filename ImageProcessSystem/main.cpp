@@ -19,6 +19,7 @@ int main(int argc, char *argv[])
 
     w.show();
     w.setWindowState(Qt::WindowMaximized);
+    w.setWindowTitle(QString::fromLocal8Bit("基于OpenCV的图像处理系统的设计与实现  武汉邮电科学研究院软件工程课程项目 柯特 20210018"));
 
     return a.exec();
 }
